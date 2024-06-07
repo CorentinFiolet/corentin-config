@@ -1,0 +1,29 @@
+{
+  "name": "corentin-config",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CorentinFiolet/corentin-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CorentinFiolet/corentin-config/issues"
+  },
+  "homepage": "https://github.com/CorentinFiolet/corentin-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-angular": "^19.3.0",
+    "typescript": "^5.4.5",
+    "husky": "^9.0.11"
+  }
+}
